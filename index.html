@@ -12,26 +12,26 @@
     <div class="cal">
         <div class="display"><input type="text"></div>
         <div class="key">
-            <span class="key1">%</span>
+            <span class="key1" onclick="symbo('%')">%</span>
             <span class="key2">CE</span>
-            <span class="key3">C</span>
-            <span class="key4">X</span>
-            <span class="key5">7</span>
-            <span class="key6">8</span>
-            <span class="key7">9</span>
-            <span class="key8">x</span>
-            <span class="key9">4</span>
-            <span class="key10" onclick=five()>5</span>
-            <span class="key11">6</span>
-            <span class="key12">-</span>
-            <span class="key13">1</span>
-            <span class="key14">2</span>
-            <span class="key15">3</span>
-            <span class="key16">+</span>
-            <span class="key17">+/-</span>
-            <span class="key18">0</span>
-            <span class="key19">.</span>
-            <span class="key20">=</span>
+            <span class="key3" onclick="clearDisplay()">C</span>
+            <span class="key4" onclick="symbo('/')">/</span>
+            <span class="key5" onclick="numvalue('7')">7</span>
+            <span class="key6" onclick="numvalue('8')">8</span>
+            <span class="key7" onclick="numvalue('9')">9</span>
+            <span class="key8" onclick="symbo('*')">x</span>
+            <span class="key9" onclick="numvalue('4')">4</span>
+            <span class="key10" onclick="numvalue('5')">5</span>
+            <span class="key11" onclick="numvalue('6')">6</span>
+            <span class="key12" onclick="symbo('-')">-</span>
+            <span class="key13" onclick="numvalue('1')">1</span>
+            <span class="key14" onclick="numvalue('2')">2</span>
+            <span class="key15" onclick="numvalue('3')">3</span>
+            <span class="key16" onclick="symbo('+')">+</span>
+            <span class="key17" >+/-</span>
+            <span class="key18" onclick="numvalue('0')">0</span>
+            <span class="key19" >.</span>
+            <span class="key20" onclick="calculate()">=</span>
         </div>
     </div>
     <script src="script.js"></script>
